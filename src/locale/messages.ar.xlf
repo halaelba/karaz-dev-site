@@ -59,12 +59,12 @@
         <target> كرز هي الكلمة العربية للفاكهة التي اشتهرت بها مدينتنا قارة منذ أجيال — من هنا جاء اسمنا. </target>
       </trans-unit>
       <trans-unit id="about.body1" datatype="html">
-        <source> Karaz Dev is a small web and mobile studio based in Qara, Syria. Our engineering habits come from somewhere else, though — time spent working inside Germany&apos;s tech industry, where code review, testing, and performance budgets aren&apos;t optional extras, they&apos;re just how software gets built. </source>
-        <target> كرز ديف استوديو صغير لتطوير المواقع وتطبيقات الموبايل، مقرّه في قارة، سوريا. أما أسلوب عملنا فجاء من مكان آخر — سنوات من العمل داخل قطاع التقنية في ألمانيا، حيث مراجعة الكود، والاختبار، وحدود الأداء ليست تفاصيل إضافية، بل هي الطريقة المعتادة لبناء البرمجيات. </target>
+        <source> Karaz Dev is a small studio based in Qara, Syria. Our engineering habits come from somewhere else — Germany&apos;s tech industry, where code review, testing, and performance budgets are just how software gets built. </source>
+        <target> كرز ديف استوديو صغير مقرّه في قارة، سوريا. أما عاداتنا الهندسية فجاءت من مكان آخر — قطاع التقنية في ألمانيا، حيث مراجعة الكود والاختبار وحدود الأداء هي الطريقة المعتادة لبناء البرمجيات. </target>
       </trans-unit>
       <trans-unit id="about.body2" datatype="html">
-        <source> We brought that back home. Every project we ship gets held to the same bar, with one addition the industry we learned from doesn&apos;t usually have to think about: most of the people using what we build are on a connection that drops, not a fibre line. So we design for that from the start, not as a fix afterward. </source>
-        <target> أعدنا هذه العادات معنا. كل مشروع نسلّمه يخضع لنفس المعيار، مع إضافة واحدة لا يفكر فيها القطاع الذي تعلّمنا منه عادة: معظم من يستخدم ما نبنيه يعتمد على اتصال قد ينقطع، لا على خط إنترنت سريع. لذلك نصمم لهذا الواقع من البداية، لا كإصلاح لاحق. </target>
+        <source> We brought that back home, with one addition that industry rarely has to think about: most people using what we build are on a connection that drops. We design for that from the start. </source>
+        <target> أعدنا هذه العادات معنا، مع إضافة نادراً ما يفكر فيها ذلك القطاع: معظم من يستخدم ما نبنيه يعتمد على اتصال قد ينقطع. نصمم لهذا الواقع من البداية. </target>
       </trans-unit>
       <trans-unit id="about.values.eyebrow" datatype="html">
         <source>How we work</source>
@@ -151,8 +151,8 @@
         <target>نبني البرمجيات بالطريقة التي تعلّمناها في ألمانيا.</target>
       </trans-unit>
       <trans-unit id="home.hero.lede" datatype="html">
-        <source> Karaz Dev is a small studio working out of Qara, Syria — web and mobile products built with the engineering discipline of Germany&apos;s tech industry, and none of the overhead. </source>
-        <target> كرز ديف استوديو صغير يعمل من قارة، سوريا — منتجات ويب وموبايل مبنية بانضباط هندسي من قطاع التقنية الألماني، دون أي تعقيدات إضافية. </target>
+        <source> A small studio in Qara, Syria, building web and mobile products with the discipline of Germany&apos;s tech industry. </source>
+        <target> استوديو صغير في قارة، سوريا، يبني منتجات ويب وموبايل بانضباط قطاع التقنية الألماني. </target>
       </trans-unit>
       <trans-unit id="home.hero.ctaWork" datatype="html">
         <source>See our work</source>
@@ -171,16 +171,16 @@
         <target>تطوير المواقع</target>
       </trans-unit>
       <trans-unit id="home.services.web.body" datatype="html">
-        <source> Fast, accessible sites and web apps — built to load quickly on a weak connection, not just a studio Wi-Fi. Server-side rendering, real performance budgets, no unnecessary JavaScript. </source>
-        <target> مواقع وتطبيقات ويب سريعة وسهلة الوصول — مبنية لتفتح بسرعة على اتصال ضعيف، لا فقط على واي فاي الاستوديو. عرض من جهة الخادم، وحدود أداء حقيقية، ودون أي جافاسكربت زائد. </target>
+        <source> Fast, accessible sites and apps — built to load quickly even on a weak connection. </source>
+        <target> مواقع وتطبيقات سريعة وسهلة الوصول — مبنية لتفتح بسرعة حتى على اتصال ضعيف. </target>
       </trans-unit>
       <trans-unit id="home.services.mobile.title" datatype="html">
         <source>Mobile Development</source>
         <target>تطوير تطبيقات الموبايل</target>
       </trans-unit>
       <trans-unit id="home.services.mobile.body" datatype="html">
-        <source> Native and cross-platform apps for iOS and Android, from first screen to App Store release — built to stay usable when the network isn&apos;t. </source>
-        <target> تطبيقات أصلية أو متعددة المنصات لنظامي iOS وAndroid، من أول شاشة حتى النشر على المتجر — مبنية لتبقى صالحة للاستخدام حتى عندما تنقطع الشبكة. </target>
+        <source> iOS and Android apps, from first screen to release — built to stay usable when the network isn&apos;t. </source>
+        <target> تطبيقات لنظامي iOS وAndroid، من أول شاشة حتى الإطلاق — مبنية لتبقى صالحة حتى عندما تنقطع الشبكة. </target>
       </trans-unit>
       <trans-unit id="home.services.more" datatype="html">
         <source>More on how we work →</source>
@@ -195,8 +195,8 @@
         <target>بمعايير هندسية ألمانية. مبني لاتصالات سوريا.</target>
       </trans-unit>
       <trans-unit id="home.about.body" datatype="html">
-        <source> Our practice comes from working inside Germany&apos;s tech industry — code review, testing, and performance budgets as the default, not an afterthought. We apply the same standard here, with a specific focus the industry usually skips: products that stay fast on the connections our own city actually has. </source>
-        <target> أسلوب عملنا جاء من العمل داخل قطاع التقنية الألماني — مراجعة الكود، والاختبار، وحدود الأداء كخطوة أساسية، لا كتفكير لاحق. نطبّق المعيار نفسه هنا، مع تركيز خاص يتجاهله القطاع عادة: منتجات تبقى سريعة على الاتصال الذي تملكه مدينتنا فعلاً. </target>
+        <source> Our habits come from Germany&apos;s tech industry — code review, testing, real performance budgets. Plus one focus that industry usually skips: staying fast on the connections our own city actually has. </source>
+        <target> عاداتنا جاءت من قطاع التقنية الألماني — مراجعة الكود، والاختبار، وحدود أداء حقيقية. مع تركيز إضافي يتجاهله القطاع عادة: البقاء سريعين على الاتصال الذي تملكه مدينتنا فعلاً. </target>
       </trans-unit>
       <trans-unit id="home.about.more" datatype="html">
         <source>Read more about us →</source>
@@ -211,8 +211,8 @@
         <target>مظبوط — منصة للمهنيين</target>
       </trans-unit>
       <trans-unit id="home.work.body" datatype="html">
-        <source> A bilingual (Arabic-first) marketplace connecting customers with local craftsmen — plumbers, electricians, carpenters — built with the same offline-friendly approach as this site. </source>
-        <target> منصة ثنائية اللغة (بالعربية أولاً) تربط الزبائن بالمهنيين المحليين — سباك، كهربائي، نجار — مبنية بنفس النهج الذي يعمل جيداً على اتصال ضعيف، تماماً مثل هذا الموقع. </target>
+        <source> A bilingual marketplace connecting customers with local craftsmen — built the same offline-friendly way as this site. </source>
+        <target> منصة ثنائية اللغة تربط الزبائن بالمهنيين المحليين — مبنية بنفس النهج الذي يعمل جيداً على اتصال ضعيف، مثل هذا الموقع. </target>
       </trans-unit>
       <trans-unit id="home.work.more" datatype="html">
         <source>See the full case study →</source>
@@ -243,8 +243,8 @@
         <target>تطوير المواقع</target>
       </trans-unit>
       <trans-unit id="services.web.body" datatype="html">
-        <source> Marketing sites, dashboards, and full web applications — server-rendered where it matters, with a real performance budget instead of a hope. We measure against a slow connection, not a developer&apos;s fibre line, because that&apos;s who&apos;s actually going to use what we ship. </source>
-        <target> مواقع تعريفية، ولوحات تحكم، وتطبيقات ويب كاملة — معروضة من جهة الخادم حيث يهم ذلك، وبحدود أداء حقيقية بدل مجرد الأمل. نقيس الأداء على اتصال بطيء، لا على خط إنترنت المطوّر، لأن هذا هو من سيستخدم ما نبنيه فعلاً. </target>
+        <source> Marketing sites, dashboards, and web apps — server-rendered where it matters, and measured against a slow connection, not a developer&apos;s fibre line. </source>
+        <target> مواقع تعريفية، ولوحات تحكم، وتطبيقات ويب — معروضة من جهة الخادم حيث يهم ذلك، ومقيّمة على اتصال بطيء، لا على خط إنترنت المطوّر. </target>
       </trans-unit>
       <trans-unit id="services.web.point1" datatype="html">
         <source>Server-side rendering and static generation where it fits</source>
@@ -263,8 +263,8 @@
         <target>تطوير تطبيقات الموبايل</target>
       </trans-unit>
       <trans-unit id="services.mobile.body" datatype="html">
-        <source> iOS and Android apps, native or cross-platform depending on what the product actually needs — not what&apos;s trendiest. Built to handle a dropped connection gracefully instead of just spinning. </source>
-        <target> تطبيقات لنظامي iOS وAndroid، أصلية أو متعددة المنصات حسب ما يحتاجه المنتج فعلاً — لا حسب ما هو رائج. مبنية للتعامل مع انقطاع الاتصال بسلاسة، لا بمجرد دوران أيقونة التحميل. </target>
+        <source> iOS and Android apps, native or cross-platform depending on what the product needs. Built to handle a dropped connection gracefully. </source>
+        <target> تطبيقات لنظامي iOS وAndroid، أصلية أو متعددة المنصات حسب ما يحتاجه المنتج. مبنية للتعامل مع انقطاع الاتصال بسلاسة. </target>
       </trans-unit>
       <trans-unit id="services.mobile.point1" datatype="html">
         <source>Offline-first data handling where the product calls for it</source>
@@ -339,12 +339,12 @@
         <target>منصة ثنائية اللغة تربط الزبائن بالمهنيين المحليين.</target>
       </trans-unit>
       <trans-unit id="work.mazboot.body1" datatype="html">
-        <source> Customers post what they need done — a leaking tap, a wiring job, a custom cabinet — and nearby craftsmen send offers directly. Arabic-first, built for an audience where a phone number matters more than an email address, and a fast connection can&apos;t be assumed. </source>
-        <target> ينشر الزبائن ما يحتاجون إنجازه — صنبور يسرّب، أعمال كهرباء، خزانة على الطلب — ويرسل المهنيون القريبون عروضهم مباشرة. بالعربية أولاً، ومبني لجمهور يهمه رقم الهاتف أكثر من البريد الإلكتروني، حيث لا يمكن افتراض وجود اتصال سريع. </target>
+        <source> Customers post what they need done — a leaking tap, a wiring job — and nearby craftsmen send offers directly. Arabic-first, built for an audience where a phone number matters more than an email. </source>
+        <target> ينشر الزبائن ما يحتاجون إنجازه — صنبور يسرّب، أعمال كهرباء — ويرسل المهنيون القريبون عروضهم مباشرة. بالعربية أولاً، ومبني لجمهور يهمه رقم الهاتف أكثر من البريد الإلكتروني. </target>
       </trans-unit>
       <trans-unit id="work.mazboot.body2" datatype="html">
-        <source> Server-rendered, row-level security on every query, and a phone-number sign-in path alongside the standard one — because &quot;email and Google login&quot; isn&apos;t always the right default. </source>
-        <target> معروض من جهة الخادم، مع أمان على مستوى الصف في كل استعلام، وطريقة تسجيل دخول برقم الهاتف إلى جانب الطريقة المعتادة — لأن «البريد الإلكتروني وتسجيل الدخول عبر Google» ليس دائماً الخيار الافتراضي الصحيح. </target>
+        <source> Server-rendered, with row-level security on every query, and phone-number sign-in alongside the standard one. </source>
+        <target> معروض من جهة الخادم، مع أمان على مستوى الصف في كل استعلام، وتسجيل دخول برقم الهاتف إلى جانب الطريقة المعتادة. </target>
       </trans-unit>
       <trans-unit id="work.mazboot.roleLabel" datatype="html">
         <source>Role</source>
