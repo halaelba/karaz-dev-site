@@ -1,0 +1,50 @@
+.page-hero {
+  padding-block-start: var(--space-5);
+}
+
+h1 {
+  font-size: clamp(1.8rem, 3.6vw, 2.6rem);
+  margin-block: 0.6rem 0.8rem;
+  max-width: 22ch;
+}
+
+.lede {
+  color: var(--muted);
+  max-width: 56ch;
+}
+
+.prose {
+  max-width: 64ch;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.prose p {
+  color: var(--cream);
+  font-size: 1.02rem;
+}
+
+.values-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: var(--space-3);
+  margin-block-start: var(--space-2);
+}
+
+.value h2 {
+  font-size: 1.05rem;
+  color: var(--cherry-bright);
+  margin-block-end: 0.5rem;
+}
+
+.value p {
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+
+@media (max-width: 760px) {
+  .values-grid {
+    grid-template-columns: 1fr;
+  }
+}

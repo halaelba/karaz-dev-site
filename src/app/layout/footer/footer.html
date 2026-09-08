@@ -1,0 +1,29 @@
+<footer class="site-footer">
+  <div class="container grid">
+    <div class="col">
+      <a routerLink="/" class="brand">
+        <img src="logo.svg" width="28" height="28" alt="" />
+        <span class="wordmark"><span class="karaz">karaz</span> <span class="dev">dev</span></span>
+      </a>
+      <p class="tagline" i18n="@@footer.tagline">Web and mobile development, from Qara, Syria.</p>
+    </div>
+
+    <div class="col">
+      <span class="eyebrow" i18n="@@footer.contact">Contact</span>
+      <a href="mailto:hello@karaz.dev">hello&#64;karaz.dev</a>
+      <a href="https://wa.me/963000000000" target="_blank" rel="noopener noreferrer">WhatsApp</a>
+    </div>
+
+    <div class="col">
+      <span class="eyebrow" i18n="@@footer.sitemap">Site</span>
+      <a routerLink="/services" i18n="@@nav.services">Services</a>
+      <a routerLink="/work" i18n="@@nav.work">Work</a>
+      <a routerLink="/about" i18n="@@nav.about">About</a>
+    </div>
+  </div>
+
+  <div class="container bottom">
+    <span i18n="@@footer.copyright">© {{ year }} Karaz Dev. All rights reserved.</span>
+    <span class="location" i18n="@@footer.location">Qara, Syria</span>
+  </div>
+</footer>

@@ -1,0 +1,656 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en" datatype="plaintext" original="ng2.template">
+    <body>
+      <trans-unit id="footer.tagline" datatype="html">
+        <source>Web and mobile development, from Qara, Syria.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/layout/footer/footer.html</context>
+          <context context-type="linenumber">8,11</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="footer.contact" datatype="html">
+        <source>Contact</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/layout/footer/footer.html</context>
+          <context context-type="linenumber">12,13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="footer.sitemap" datatype="html">
+        <source>Site</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/layout/footer/footer.html</context>
+          <context context-type="linenumber">18,19</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="nav.services" datatype="html">
+        <source>Services</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/layout/footer/footer.html</context>
+          <context context-type="linenumber">19,20</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/layout/header/header.html</context>
+          <context context-type="linenumber">21,22</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="nav.work" datatype="html">
+        <source>Work</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/layout/footer/footer.html</context>
+          <context context-type="linenumber">21</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/layout/header/header.html</context>
+          <context context-type="linenumber">23</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="nav.about" datatype="html">
+        <source>About</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/layout/footer/footer.html</context>
+          <context context-type="linenumber">21,23</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/layout/header/header.html</context>
+          <context context-type="linenumber">23,24</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="footer.copyright" datatype="html">
+        <source>© <x id="INTERPOLATION" equiv-text="{{ year }}"/> Karaz Dev. All rights reserved.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/layout/footer/footer.html</context>
+          <context context-type="linenumber">26,27</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="footer.location" datatype="html">
+        <source>Qara, Syria</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/layout/footer/footer.html</context>
+          <context context-type="linenumber">27,30</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="nav.menu" datatype="html">
+        <source>Menu</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/layout/header/header.html</context>
+          <context context-type="linenumber">15,16</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="nav.home" datatype="html">
+        <source>Home</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/layout/header/header.html</context>
+          <context context-type="linenumber">21</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="nav.contact" datatype="html">
+        <source>Contact</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/layout/header/header.html</context>
+          <context context-type="linenumber">24,25</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="about.hero.eyebrow" datatype="html">
+        <source>About</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/about/about.html</context>
+          <context context-type="linenumber">3,4</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="about.hero.title" datatype="html">
+        <source>Qara&apos;s cherries. Germany&apos;s habits.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/about/about.html</context>
+          <context context-type="linenumber">4,5</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="about.hero.lede" datatype="html">
+        <source> Karaz — كرز — is Arabic for cherry, the fruit our city, Qara, has grown for generations. That&apos;s where the name comes from. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/about/about.html</context>
+          <context context-type="linenumber">6,10</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="about.body1" datatype="html">
+        <source> Karaz Dev is a small web and mobile studio based in Qara, Syria. Our engineering habits come from somewhere else, though — time spent working inside Germany&apos;s tech industry, where code review, testing, and performance budgets aren&apos;t optional extras, they&apos;re just how software gets built. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/about/about.html</context>
+          <context context-type="linenumber">15,19</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="about.body2" datatype="html">
+        <source> We brought that back home. Every project we ship gets held to the same bar, with one addition the industry we learned from doesn&apos;t usually have to think about: most of the people using what we build are on a connection that drops, not a fibre line. So we design for that from the start, not as a fix afterward. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/about/about.html</context>
+          <context context-type="linenumber">21,25</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="about.values.eyebrow" datatype="html">
+        <source>How we work</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/about/about.html</context>
+          <context context-type="linenumber">31,33</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="about.values.v1.title" datatype="html">
+        <source>Built for the connection you actually have</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/about/about.html</context>
+          <context context-type="linenumber">34,35</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="about.values.v1.body" datatype="html">
+        <source> Every project is measured against a slow connection, not a developer&apos;s Wi-Fi. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/about/about.html</context>
+          <context context-type="linenumber">36,38</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="about.values.v2.title" datatype="html">
+        <source>Arabic and English, properly</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/about/about.html</context>
+          <context context-type="linenumber">40,41</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="about.values.v2.body" datatype="html">
+        <source> Right-to-left support built into the framework, not patched on top after launch. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/about/about.html</context>
+          <context context-type="linenumber">42,44</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="about.values.v3.title" datatype="html">
+        <source>Small team, direct communication</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/about/about.html</context>
+          <context context-type="linenumber">46,47</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="about.values.v3.body" datatype="html">
+        <source> No account managers between you and the person writing the code. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/about/about.html</context>
+          <context context-type="linenumber">48,50</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="about.cta.title" datatype="html">
+        <source>Let&apos;s talk about your project.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/about/about.html</context>
+          <context context-type="linenumber">57,58</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="about.cta.button" datatype="html">
+        <source>Get in touch</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/about/about.html</context>
+          <context context-type="linenumber">58,61</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="contact.hero.eyebrow" datatype="html">
+        <source>Contact</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/contact/contact.html</context>
+          <context context-type="linenumber">3,4</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="contact.hero.title" datatype="html">
+        <source>Tell us about the project.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/contact/contact.html</context>
+          <context context-type="linenumber">4,5</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="contact.hero.lede" datatype="html">
+        <source> Send an email or a WhatsApp message — whichever is easier. We reply within a day or two. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/contact/contact.html</context>
+          <context context-type="linenumber">6,9</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="contact.email.label" datatype="html">
+        <source>Email</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/contact/contact.html</context>
+          <context context-type="linenumber">14,15</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="contact.email.hint" datatype="html">
+        <source>For project briefs and anything detailed.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/contact/contact.html</context>
+          <context context-type="linenumber">16,18</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="contact.whatsapp.label" datatype="html">
+        <source>WhatsApp</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/contact/contact.html</context>
+          <context context-type="linenumber">19,20</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="contact.whatsapp.value" datatype="html">
+        <source>Message us directly</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/contact/contact.html</context>
+          <context context-type="linenumber">20,21</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="contact.whatsapp.hint" datatype="html">
+        <source>Fastest way to reach us.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/contact/contact.html</context>
+          <context context-type="linenumber">21,25</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="contact.location.label" datatype="html">
+        <source>Based in</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/contact/contact.html</context>
+          <context context-type="linenumber">26,27</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="contact.location.value" datatype="html">
+        <source>Qara, Syria — working with clients everywhere</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/contact/contact.html</context>
+          <context context-type="linenumber">27,30</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="home.hero.eyebrow" datatype="html">
+        <source>Web &amp; mobile development</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/home/home.html</context>
+          <context context-type="linenumber">4,5</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="home.hero.title" datatype="html">
+        <source>We build software the way we learned to in Germany.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/home/home.html</context>
+          <context context-type="linenumber">5,6</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="home.hero.lede" datatype="html">
+        <source> Karaz Dev is a small studio working out of Qara, Syria — web and mobile products built with the engineering discipline of Germany&apos;s tech industry, and none of the overhead. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/home/home.html</context>
+          <context context-type="linenumber">7,10</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="home.hero.ctaWork" datatype="html">
+        <source>See our work</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/home/home.html</context>
+          <context context-type="linenumber">11,12</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="home.hero.ctaContact" datatype="html">
+        <source>Start a project</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/home/home.html</context>
+          <context context-type="linenumber">12,15</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="home.services.eyebrow" datatype="html">
+        <source>What we do</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/home/home.html</context>
+          <context context-type="linenumber">23,25</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="home.services.web.title" datatype="html">
+        <source>Web Development</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/home/home.html</context>
+          <context context-type="linenumber">26,27</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="home.services.web.body" datatype="html">
+        <source> Fast, accessible sites and web apps — built to load quickly on a weak connection, not just a studio Wi-Fi. Server-side rendering, real performance budgets, no unnecessary JavaScript. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/home/home.html</context>
+          <context context-type="linenumber">28,31</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="home.services.mobile.title" datatype="html">
+        <source>Mobile Development</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/home/home.html</context>
+          <context context-type="linenumber">34,35</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="home.services.mobile.body" datatype="html">
+        <source> Native and cross-platform apps for iOS and Android, from first screen to App Store release — built to stay usable when the network isn&apos;t. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/home/home.html</context>
+          <context context-type="linenumber">36,39</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="home.services.more" datatype="html">
+        <source>More on how we work →</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/home/home.html</context>
+          <context context-type="linenumber">41,45</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="home.about.eyebrow" datatype="html">
+        <source>Why Karaz Dev</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/home/home.html</context>
+          <context context-type="linenumber">48,49</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="home.about.title" datatype="html">
+        <source>Trained on German engineering standards. Built for Syria&apos;s connections.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/home/home.html</context>
+          <context context-type="linenumber">49,50</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="home.about.body" datatype="html">
+        <source> Our practice comes from working inside Germany&apos;s tech industry — code review, testing, and performance budgets as the default, not an afterthought. We apply the same standard here, with a specific focus the industry usually skips: products that stay fast on the connections our own city actually has. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/home/home.html</context>
+          <context context-type="linenumber">51,54</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="home.about.more" datatype="html">
+        <source>Read more about us →</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/home/home.html</context>
+          <context context-type="linenumber">56,59</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="home.work.eyebrow" datatype="html">
+        <source>Selected work</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/home/home.html</context>
+          <context context-type="linenumber">63,64</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="home.work.title" datatype="html">
+        <source>Mazboot — a marketplace for craftsmen</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/home/home.html</context>
+          <context context-type="linenumber">64,65</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="home.work.body" datatype="html">
+        <source> A bilingual (Arabic-first) marketplace connecting customers with local craftsmen — plumbers, electricians, carpenters — built with the same offline-friendly approach as this site. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/home/home.html</context>
+          <context context-type="linenumber">66,70</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="home.work.more" datatype="html">
+        <source>See the full case study →</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/home/home.html</context>
+          <context context-type="linenumber">70,74</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="home.cta.title" datatype="html">
+        <source>Have a project in mind?</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/home/home.html</context>
+          <context context-type="linenumber">76,77</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="home.cta.button" datatype="html">
+        <source>Get in touch</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/home/home.html</context>
+          <context context-type="linenumber">77,80</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="services.hero.eyebrow" datatype="html">
+        <source>Services</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/services/services.html</context>
+          <context context-type="linenumber">3,4</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="services.hero.title" datatype="html">
+        <source>Web and mobile products, built to actually load.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/services/services.html</context>
+          <context context-type="linenumber">4,5</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="services.hero.lede" datatype="html">
+        <source> Two things, done properly, rather than a long list done halfway. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/services/services.html</context>
+          <context context-type="linenumber">6,9</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="services.web.title" datatype="html">
+        <source>Web Development</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/services/services.html</context>
+          <context context-type="linenumber">15,16</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="services.web.body" datatype="html">
+        <source> Marketing sites, dashboards, and full web applications — server-rendered where it matters, with a real performance budget instead of a hope. We measure against a slow connection, not a developer&apos;s fibre line, because that&apos;s who&apos;s actually going to use what we ship. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/services/services.html</context>
+          <context context-type="linenumber">17,21</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="services.web.point1" datatype="html">
+        <source>Server-side rendering and static generation where it fits</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/services/services.html</context>
+          <context context-type="linenumber">23,24</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="services.web.point2" datatype="html">
+        <source>Multi-language and right-to-left support, done at the framework level</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/services/services.html</context>
+          <context context-type="linenumber">24,25</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="services.web.point3" datatype="html">
+        <source>Accessibility and semantic markup, not an afterthought pass</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/services/services.html</context>
+          <context context-type="linenumber">25,28</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="services.mobile.title" datatype="html">
+        <source>Mobile Development</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/services/services.html</context>
+          <context context-type="linenumber">35,36</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="services.mobile.body" datatype="html">
+        <source> iOS and Android apps, native or cross-platform depending on what the product actually needs — not what&apos;s trendiest. Built to handle a dropped connection gracefully instead of just spinning. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/services/services.html</context>
+          <context context-type="linenumber">37,41</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="services.mobile.point1" datatype="html">
+        <source>Offline-first data handling where the product calls for it</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/services/services.html</context>
+          <context context-type="linenumber">42,43</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="services.mobile.point2" datatype="html">
+        <source>App Store and Play Store release management</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/services/services.html</context>
+          <context context-type="linenumber">43,44</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="services.mobile.point3" datatype="html">
+        <source>Push notifications, deep links, and native device features</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/services/services.html</context>
+          <context context-type="linenumber">44,47</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="services.process.eyebrow" datatype="html">
+        <source>How a project runs</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/services/services.html</context>
+          <context context-type="linenumber">52,54</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="services.process.step1.title" datatype="html">
+        <source>Discovery</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/services/services.html</context>
+          <context context-type="linenumber">57,58</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="services.process.step1.body" datatype="html">
+        <source>We map out what the product actually needs to do, and who for.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/services/services.html</context>
+          <context context-type="linenumber">58,61</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="services.process.step2.title" datatype="html">
+        <source>Build</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/services/services.html</context>
+          <context context-type="linenumber">64,65</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="services.process.step2.body" datatype="html">
+        <source>Short iterations, real code reviews, and a working preview at every stage.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/services/services.html</context>
+          <context context-type="linenumber">65,68</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="services.process.step3.title" datatype="html">
+        <source>Launch &amp; support</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/services/services.html</context>
+          <context context-type="linenumber">71,72</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="services.process.step3.body" datatype="html">
+        <source>We stay on after launch — fixes, monitoring, and the next iteration.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/services/services.html</context>
+          <context context-type="linenumber">72,76</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="services.cta.title" datatype="html">
+        <source>Tell us what you&apos;re building.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/services/services.html</context>
+          <context context-type="linenumber">81,82</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="services.cta.button" datatype="html">
+        <source>Get in touch</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/services/services.html</context>
+          <context context-type="linenumber">82,85</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="work.hero.eyebrow" datatype="html">
+        <source>Work</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/work/work.html</context>
+          <context context-type="linenumber">4</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="work.hero.title" datatype="html">
+        <source>Selected work</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/work/work.html</context>
+          <context context-type="linenumber">4,5</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="work.hero.lede" datatype="html">
+        <source>One project so far, built the way every future one will be.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/work/work.html</context>
+          <context context-type="linenumber">5,9</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="work.mazboot.status" datatype="html">
+        <source>In development</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/work/work.html</context>
+          <context context-type="linenumber">12,13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="work.mazboot.title" datatype="html">
+        <source>Mazboot</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/work/work.html</context>
+          <context context-type="linenumber">13,14</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="work.mazboot.subtitle" datatype="html">
+        <source>A bilingual marketplace connecting customers with local craftsmen.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/work/work.html</context>
+          <context context-type="linenumber">14,17</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="work.mazboot.body1" datatype="html">
+        <source> Customers post what they need done — a leaking tap, a wiring job, a custom cabinet — and nearby craftsmen send offers directly. Arabic-first, built for an audience where a phone number matters more than an email address, and a fast connection can&apos;t be assumed. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/work/work.html</context>
+          <context context-type="linenumber">18,22</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="work.mazboot.body2" datatype="html">
+        <source> Server-rendered, row-level security on every query, and a phone-number sign-in path alongside the standard one — because &quot;email and Google login&quot; isn&apos;t always the right default. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/work/work.html</context>
+          <context context-type="linenumber">23,28</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="work.mazboot.roleLabel" datatype="html">
+        <source>Role</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/work/work.html</context>
+          <context context-type="linenumber">30,31</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="work.mazboot.role" datatype="html">
+        <source>Full product build — design, engineering, deployment</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/work/work.html</context>
+          <context context-type="linenumber">31,34</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="work.mazboot.stackLabel" datatype="html">
+        <source>Stack</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/work/work.html</context>
+          <context context-type="linenumber">34,35</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="work.cta.title" datatype="html">
+        <source>Want to be the next one on this page?</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/work/work.html</context>
+          <context context-type="linenumber">43,44</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="work.cta.button" datatype="html">
+        <source>Start a project</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/work/work.html</context>
+          <context context-type="linenumber">44,47</context>
+        </context-group>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

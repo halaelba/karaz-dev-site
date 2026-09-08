@@ -1,0 +1,28 @@
+<header class="site-header">
+  <div class="container bar">
+    <a routerLink="/" class="brand" (click)="closeMenu()">
+      <img src="logo.svg" width="32" height="32" alt="" />
+      <span class="wordmark"><span class="karaz">karaz</span> <span class="dev">dev</span></span>
+    </a>
+
+    <button
+      class="menu-toggle"
+      type="button"
+      (click)="toggleMenu()"
+      [attr.aria-expanded]="menuOpen()"
+      aria-controls="primary-nav"
+    >
+      <span class="sr-only" i18n="@@nav.menu">Menu</span>
+      <span class="bar-icon" [class.open]="menuOpen()"></span>
+    </button>
+
+    <nav id="primary-nav" class="nav" [class.open]="menuOpen()">
+      <a routerLink="/" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }" (click)="closeMenu()" i18n="@@nav.home">Home</a>
+      <a routerLink="/services" routerLinkActive="active" (click)="closeMenu()" i18n="@@nav.services">Services</a>
+      <a routerLink="/work" routerLinkActive="active" (click)="closeMenu()" i18n="@@nav.work">Work</a>
+      <a routerLink="/about" routerLinkActive="active" (click)="closeMenu()" i18n="@@nav.about">About</a>
+      <a routerLink="/contact" routerLinkActive="active" (click)="closeMenu()" i18n="@@nav.contact" class="nav-cta">Contact</a>
+      <a [href]="otherLocaleHref" class="lang-switch" hreflang="{{ locale }}">{{ otherLocaleLabel }}</a>
+    </nav>
+  </div>
+</header>

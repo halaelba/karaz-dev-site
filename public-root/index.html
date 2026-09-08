@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Karaz Dev</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta http-equiv="refresh" content="0; url=/en/" />
+  <link rel="icon" type="image/svg+xml" href="/en/logo.svg" />
+  <style>
+    body {
+      margin: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      background: #1a1210;
+      color: #ede3d2;
+      font-family: -apple-system, "Segoe UI", "Noto Sans Arabic", sans-serif;
+    }
+    a { color: #c9483b; }
+  </style>
+  <script>
+    var target = navigator.language && navigator.language.toLowerCase().indexOf('ar') === 0 ? '/ar/' : '/en/';
+    location.replace(target + location.hash);
+  </script>
+</head>
+<body>
+  <noscript>
+    <p>Karaz Dev — <a href="/en/">English</a> · <a href="/ar/">العربية</a></p>
+  </noscript>
+</body>
+</html>

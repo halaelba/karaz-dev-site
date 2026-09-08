@@ -1,0 +1,180 @@
+:root {
+  /* Karaz Dev brand tokens — same palette as the mark: an actual dark
+     cherry, not a generic "brand red". */
+  --ink: #1a1210;
+  --ink-raised: #211714;
+  --ink-card: #271b17;
+  --cherry: #7f1e30;
+  --cherry-bright: #c9483b;
+  --stem: #7c8459;
+  --leaf: #6e7c4a;
+  --cream: #ede3d2;
+  --muted: #a8998a;
+  --hairline: #3a2d28;
+
+  --font-display: ui-monospace, 'Cascadia Code', 'SFMono-Regular', Consolas, 'Liberation Mono', monospace;
+  --font-body: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans Arabic', Tahoma, sans-serif;
+
+  --measure: 64ch;
+  --space-1: 0.5rem;
+  --space-2: 1rem;
+  --space-3: 1.5rem;
+  --space-4: 2.5rem;
+  --space-5: 4rem;
+  --space-6: 6.5rem;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  color-scheme: dark;
+}
+
+body {
+  background: var(--ink);
+  color: var(--cream);
+  font-family: var(--font-body);
+  font-size: 16px;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1,
+h2,
+h3 {
+  font-family: var(--font-display);
+  line-height: 1.15;
+  margin: 0;
+  text-wrap: balance;
+}
+
+/* Arabic isn't a monospace-compatible script -- forcing it into the
+   display face spaces glyphs unevenly, so RTL pages fall back to the
+   body face for headings instead. */
+html[dir='rtl'] h1,
+html[dir='rtl'] h2,
+html[dir='rtl'] h3 {
+  font-family: var(--font-body);
+}
+
+html[dir='rtl'] .eyebrow,
+html[dir='rtl'] .btn,
+html[dir='rtl'] .link-more,
+html[dir='rtl'] .lang-switch,
+html[dir='rtl'] .step-index,
+html[dir='rtl'] .service-number,
+html[dir='rtl'] .bottom,
+html[dir='rtl'] .contact-value {
+  font-family: var(--font-body);
+}
+
+p {
+  margin: 0;
+}
+
+a {
+  color: inherit;
+}
+
+img,
+svg {
+  max-width: 100%;
+  display: block;
+}
+
+:focus-visible {
+  outline: 2px solid var(--cherry-bright);
+  outline-offset: 3px;
+}
+
+.container {
+  width: 100%;
+  max-width: 1080px;
+  margin-inline: auto;
+  padding-inline: var(--space-3);
+}
+
+.eyebrow {
+  font-family: var(--font-display);
+  font-size: 0.75rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+.section {
+  padding-block: var(--space-6);
+  border-block-end: 1px solid var(--hairline);
+}
+
+.section:last-of-type {
+  border-block-end: none;
+}
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-1);
+  font-family: var(--font-display);
+  font-size: 0.9rem;
+  padding: 0.75rem 1.25rem;
+  border-radius: 8px;
+  text-decoration: none;
+  border: 1px solid transparent;
+  cursor: pointer;
+  transition: background-color 0.15s ease, border-color 0.15s ease, transform 0.1s ease;
+}
+
+.btn:active {
+  transform: translateY(1px);
+}
+
+.btn-primary {
+  background: var(--cherry-bright);
+  color: var(--ink);
+  font-weight: 600;
+}
+
+.btn-primary:hover {
+  background: #d8564a;
+}
+
+.btn-ghost {
+  border-color: var(--hairline);
+  color: var(--cream);
+}
+
+.btn-ghost:hover {
+  border-color: var(--stem);
+}
+
+.cta-band {
+  background: var(--ink-raised);
+}
+
+.cta-band-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: var(--space-2);
+}
+
+.cta-band-inner h2 {
+  font-size: 1.5rem;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.001ms !important;
+    transition-duration: 0.001ms !important;
+  }
+}
