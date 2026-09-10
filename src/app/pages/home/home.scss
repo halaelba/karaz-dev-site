@@ -1,3 +1,7 @@
+.section {
+  scroll-margin-block-start: 5rem;
+}
+
 .hero {
   padding-block-start: var(--space-6);
 }
@@ -15,8 +19,15 @@ h1 {
   color: var(--cream);
 }
 
+.section-title {
+  font-size: clamp(1.8rem, 3.6vw, 2.6rem);
+  margin-block: 0.6rem 0.8rem;
+  max-width: 26ch;
+  color: var(--cream);
+}
+
 .lede {
-  max-width: 52ch;
+  max-width: 56ch;
   color: var(--muted);
   font-size: 1.05rem;
 }
@@ -32,59 +43,91 @@ h1 {
   opacity: 0.9;
 }
 
-.service-grid {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: var(--space-3);
-  margin-block: var(--space-2) var(--space-3);
+/* Work */
+
+.work-section {
+  background: var(--ink-raised);
 }
 
-.service-card {
+.work-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: var(--space-3);
+  margin-block-start: var(--space-3);
+}
+
+.work-card {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
   background: var(--ink-card);
   border: 1px solid var(--hairline);
   border-radius: 12px;
   padding: var(--space-3);
 }
 
-.service-card h2 {
-  font-size: 1.15rem;
+.work-card h3 {
+  font-size: 1.3rem;
   color: var(--cherry-bright);
-  margin-block-end: 0.6rem;
 }
 
-.service-card p {
-  color: var(--muted);
+.work-sub {
+  color: var(--cream);
   font-size: 0.95rem;
 }
 
-.link-more {
-  font-family: var(--font-display);
+.work-card p {
+  color: var(--muted);
   font-size: 0.9rem;
-  color: var(--cherry-bright);
-  text-decoration: none;
 }
 
-.link-more:hover {
+.work-link {
+  font-family: var(--font-display);
+  font-size: 0.85rem;
+  color: var(--cherry-bright);
+  text-decoration: none;
+  margin-block-start: auto;
+  padding-block-start: 0.5rem;
+}
+
+.work-link:hover {
   text-decoration: underline;
 }
 
-.about-teaser h2,
-.work-teaser h2 {
-  font-size: 1.6rem;
-  margin-block: 0.6rem 0.9rem;
-  max-width: 30ch;
+/* Contact */
+
+.contact-grid {
+  display: grid;
+  gap: var(--space-3);
+  margin-block-start: var(--space-3);
 }
 
-.about-teaser p,
-.work-teaser p {
-  max-width: 60ch;
+.contact-card {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  padding: var(--space-3);
+  border: 1px solid var(--hairline);
+  border-radius: 12px;
+  text-decoration: none;
+  background: var(--ink-card);
+  transition: border-color 0.15s ease;
+  max-width: 320px;
+}
+
+.contact-card:hover {
+  border-color: var(--cherry-bright);
+}
+
+.contact-value {
+  font-family: var(--font-display);
+  font-size: 1.2rem;
+  color: var(--cream);
+}
+
+.contact-hint {
   color: var(--muted);
-  margin-block-end: 1rem;
-}
-
-.work-teaser {
-  background: var(--ink-raised);
-  border-block: 1px solid var(--hairline);
+  font-size: 0.85rem;
 }
 
 @media (max-width: 760px) {
@@ -102,7 +145,7 @@ h1 {
     height: 96px;
   }
 
-  .service-grid {
+  .work-grid {
     grid-template-columns: 1fr;
   }
 }

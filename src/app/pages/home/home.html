@@ -2,14 +2,14 @@
   <div class="container hero-grid">
     <div>
       <p class="eyebrow" i18n="@@home.hero.eyebrow">Web &amp; mobile development</p>
-      <h1 i18n="@@home.hero.title">We build software the way we learned to in Germany.</h1>
+      <h1 i18n="@@home.hero.title">You bring the idea. We build it.</h1>
       <p class="lede" i18n="@@home.hero.lede">
-        A small studio in Qara, Syria, building web and mobile products with the discipline of
-        Germany's tech industry.
+        Karaz Dev designs and builds web and mobile products from start to finish — you focus
+        on the idea, we handle everything it takes to ship it.
       </p>
       <div class="cta-row">
-        <a routerLink="/work" class="btn btn-primary" i18n="@@home.hero.ctaWork">See our work</a>
-        <a routerLink="/contact" class="btn btn-ghost" i18n="@@home.hero.ctaContact">Start a project</a>
+        <a href="#contact" class="btn btn-primary" i18n="@@home.hero.ctaContact">Start a project</a>
+        <a href="#work" class="btn btn-ghost" i18n="@@home.hero.ctaWork">See our work</a>
       </div>
     </div>
     <div class="hero-mark" aria-hidden="true">
@@ -18,58 +18,63 @@
   </div>
 </section>
 
-<section class="section">
+<section id="work" class="section work-section">
   <div class="container">
-    <p class="eyebrow" i18n="@@home.services.eyebrow">What we do</p>
-    <div class="service-grid">
-      <article class="service-card">
-        <h2 i18n="@@home.services.web.title">Web Development</h2>
-        <p i18n="@@home.services.web.body">
-          Fast, accessible sites and apps — built to load quickly even on a weak connection.
+    <p class="eyebrow" i18n="@@work.hero.eyebrow">Work</p>
+    <h2 class="section-title" i18n="@@work.hero.title">Selected work</h2>
+
+    <div class="work-grid">
+      <article class="work-card">
+        <p class="eyebrow" i18n="@@work.mazboot.status">In development</p>
+        <h3 i18n="@@work.mazboot.title">Mazboot</h3>
+        <p class="work-sub" i18n="@@work.mazboot.subtitle">A bilingual marketplace connecting customers with local craftsmen.</p>
+        <p i18n="@@work.mazboot.body">
+          Customers post what they need done — a leaking tap, a wiring job — and nearby
+          craftsmen send offers directly. Built for a slow connection and a cash economy:
+          phone-number sign-in instead of email, and no online payment — money changes hands
+          in person.
         </p>
       </article>
-      <article class="service-card">
-        <h2 i18n="@@home.services.mobile.title">Mobile Development</h2>
-        <p i18n="@@home.services.mobile.body">
-          iOS and Android apps, from first screen to release — built to stay usable when the
-          network isn't.
+
+      <article class="work-card">
+        <p class="eyebrow" i18n="@@work.lunara.status">Live</p>
+        <h3 i18n="@@work.lunara.title">Lunara Events</h3>
+        <p class="work-sub" i18n="@@work.lunara.subtitle">A decoration and design studio for life's occasions.</p>
+        <p i18n="@@work.lunara.body">
+          Custom invitations, cards, and party favors — browsed on a slow connection and
+          ordered directly through WhatsApp, with no email sign-up and no online payment.
         </p>
+        <a class="work-link" href="https://lunara-events.com/" target="_blank" rel="noopener" i18n="@@work.visitSite">Visit site ↗</a>
+      </article>
+
+      <article class="work-card">
+        <p class="eyebrow" i18n="@@work.sovereign.status">Live</p>
+        <h3 i18n="@@work.sovereign.title">Sovereign Cyber</h3>
+        <p class="work-sub" i18n="@@work.sovereign.subtitle">Independent IT strategy for organizations that want to own their technology choices.</p>
+        <p i18n="@@work.sovereign.body">
+          A consulting site built to make the case for technology independence clearly, in a
+          market that mostly defaults to whichever vendor is easiest.
+        </p>
+        <a class="work-link" href="https://sovereigncyber.de/" target="_blank" rel="noopener" i18n="@@work.visitSite">Visit site ↗</a>
       </article>
     </div>
-    <a routerLink="/services" class="link-more" i18n="@@home.services.more">More on how we work →</a>
   </div>
 </section>
 
-<section class="section">
-  <div class="container about-teaser">
-    <div>
-      <p class="eyebrow" i18n="@@home.about.eyebrow">Why Karaz Dev</p>
-      <h2 i18n="@@home.about.title">Trained on German engineering standards. Built for Syria's connections.</h2>
-      <p i18n="@@home.about.body">
-        Our habits come from Germany's tech industry — code review, testing, real performance
-        budgets. Plus one focus that industry usually skips: staying fast on the connections our
-        own city actually has.
-      </p>
-      <a routerLink="/about" class="link-more" i18n="@@home.about.more">Read more about us →</a>
-    </div>
-  </div>
-</section>
-
-<section class="section work-teaser">
+<section id="contact" class="section">
   <div class="container">
-    <p class="eyebrow" i18n="@@home.work.eyebrow">Selected work</p>
-    <h2 i18n="@@home.work.title">Mazboot — a marketplace for craftsmen</h2>
-    <p i18n="@@home.work.body">
-      A bilingual marketplace connecting customers with local craftsmen — built the same
-      offline-friendly way as this site.
+    <p class="eyebrow" i18n="@@contact.hero.eyebrow">Contact</p>
+    <h2 class="section-title" i18n="@@contact.hero.title">Let's build something worth shipping.</h2>
+    <p class="lede" i18n="@@contact.hero.lede">
+      Send an email. We reply within a day or two.
     </p>
-    <a routerLink="/work" class="link-more" i18n="@@home.work.more">See the full case study →</a>
-  </div>
-</section>
 
-<section class="section cta-band">
-  <div class="container cta-band-inner">
-    <h2 i18n="@@home.cta.title">Have a project in mind?</h2>
-    <a routerLink="/contact" class="btn btn-primary" i18n="@@home.cta.button">Get in touch</a>
+    <div class="contact-grid">
+      <a class="contact-card" href="mailto:karaz.dev@gmail.com">
+        <span class="eyebrow" i18n="@@contact.email.label">Email</span>
+        <span class="contact-value">karaz.dev&#64;gmail.com</span>
+        <span class="contact-hint" i18n="@@contact.email.hint">For project briefs and anything detailed.</span>
+      </a>
+    </div>
   </div>
 </section>

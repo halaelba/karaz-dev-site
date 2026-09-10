@@ -76,9 +76,5 @@ site.
 
 ## What's still a placeholder
 
-- `hello@karaz.dev` (footer + contact page) — needs the real domain email
-  once it exists.
-- The WhatsApp number in the footer and contact page
-  (`wa.me/963000000000`) — replace with the real number before publishing.
 - The Mazboot case study on `/work` — update once that project is actually
   live, and consider adding a screenshot.

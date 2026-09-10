@@ -3,8 +3,8 @@
   <file source-language="en" target-language="ar" datatype="plaintext" original="ng2.template">
     <body>
       <trans-unit id="footer.tagline" datatype="html">
-        <source>Web and mobile development, from Qara, Syria.</source>
-        <target>تطوير مواقع وتطبيقات موبايل، من قارة، سوريا.</target>
+        <source>Web and mobile development, with international discipline.</source>
+        <target>تطوير مواقع وتطبيقات موبايل، بانضباط عالمي.</target>
       </trans-unit>
       <trans-unit id="footer.contact" datatype="html">
         <source>Contact</source>
@@ -14,25 +14,13 @@
         <source>Site</source>
         <target>الموقع</target>
       </trans-unit>
-      <trans-unit id="nav.services" datatype="html">
-        <source>Services</source>
-        <target>خدماتنا</target>
-      </trans-unit>
       <trans-unit id="nav.work" datatype="html">
         <source>Work</source>
         <target>أعمالنا</target>
       </trans-unit>
-      <trans-unit id="nav.about" datatype="html">
-        <source>About</source>
-        <target>من نحن</target>
-      </trans-unit>
       <trans-unit id="footer.copyright" datatype="html">
         <source>© <x id="INTERPOLATION" equiv-text="{{ year }}"/> Karaz Dev. All rights reserved.</source>
         <target>© <x id="INTERPOLATION" equiv-text="{{ year }}"/> كرز ديف. جميع الحقوق محفوظة.</target>
-      </trans-unit>
-      <trans-unit id="footer.location" datatype="html">
-        <source>Qara, Syria</source>
-        <target>قارة، سوريا</target>
       </trans-unit>
       <trans-unit id="nav.menu" datatype="html">
         <source>Menu</source>
@@ -46,73 +34,17 @@
         <source>Contact</source>
         <target>تواصل معنا</target>
       </trans-unit>
-      <trans-unit id="about.hero.eyebrow" datatype="html">
-        <source>About</source>
-        <target>من نحن</target>
-      </trans-unit>
-      <trans-unit id="about.hero.title" datatype="html">
-        <source>Qara&apos;s cherries. Germany&apos;s habits.</source>
-        <target>كرز قارة. انضباط ألمانيا.</target>
-      </trans-unit>
-      <trans-unit id="about.hero.lede" datatype="html">
-        <source> Karaz — كرز — is Arabic for cherry, the fruit our city, Qara, has grown for generations. That&apos;s where the name comes from. </source>
-        <target> كرز هي الكلمة العربية للفاكهة التي اشتهرت بها مدينتنا قارة منذ أجيال — من هنا جاء اسمنا. </target>
-      </trans-unit>
-      <trans-unit id="about.body1" datatype="html">
-        <source> Karaz Dev is a small studio based in Qara, Syria. Our engineering habits come from somewhere else — Germany&apos;s tech industry, where code review, testing, and performance budgets are just how software gets built. </source>
-        <target> كرز ديف استوديو صغير مقرّه في قارة، سوريا. أما عاداتنا الهندسية فجاءت من مكان آخر — قطاع التقنية في ألمانيا، حيث مراجعة الكود والاختبار وحدود الأداء هي الطريقة المعتادة لبناء البرمجيات. </target>
-      </trans-unit>
-      <trans-unit id="about.body2" datatype="html">
-        <source> We brought that back home, with one addition that industry rarely has to think about: most people using what we build are on a connection that drops. We design for that from the start. </source>
-        <target> أعدنا هذه العادات معنا، مع إضافة نادراً ما يفكر فيها ذلك القطاع: معظم من يستخدم ما نبنيه يعتمد على اتصال قد ينقطع. نصمم لهذا الواقع من البداية. </target>
-      </trans-unit>
-      <trans-unit id="about.values.eyebrow" datatype="html">
-        <source>How we work</source>
-        <target>كيف نعمل</target>
-      </trans-unit>
-      <trans-unit id="about.values.v1.title" datatype="html">
-        <source>Built for the connection you actually have</source>
-        <target>مبني للاتصال الذي تملكه فعلاً</target>
-      </trans-unit>
-      <trans-unit id="about.values.v1.body" datatype="html">
-        <source> Every project is measured against a slow connection, not a developer&apos;s Wi-Fi. </source>
-        <target> كل مشروع نقيسه على اتصال بطيء، لا على واي فاي المطوّر. </target>
-      </trans-unit>
-      <trans-unit id="about.values.v2.title" datatype="html">
-        <source>Arabic and English, properly</source>
-        <target>عربي وإنكليزي، بشكل صحيح</target>
-      </trans-unit>
-      <trans-unit id="about.values.v2.body" datatype="html">
-        <source> Right-to-left support built into the framework, not patched on top after launch. </source>
-        <target> دعم الكتابة من اليمين لليسار مبني داخل النظام، لا مضافاً بعد الإطلاق. </target>
-      </trans-unit>
-      <trans-unit id="about.values.v3.title" datatype="html">
-        <source>Small team, direct communication</source>
-        <target>فريق صغير، وتواصل مباشر</target>
-      </trans-unit>
-      <trans-unit id="about.values.v3.body" datatype="html">
-        <source> No account managers between you and the person writing the code. </source>
-        <target> لا يوجد مدير حسابات بينك وبين الشخص الذي يكتب الكود. </target>
-      </trans-unit>
-      <trans-unit id="about.cta.title" datatype="html">
-        <source>Let&apos;s talk about your project.</source>
-        <target>لنتحدث عن مشروعك.</target>
-      </trans-unit>
-      <trans-unit id="about.cta.button" datatype="html">
-        <source>Get in touch</source>
-        <target>تواصل معنا</target>
-      </trans-unit>
       <trans-unit id="contact.hero.eyebrow" datatype="html">
         <source>Contact</source>
         <target>تواصل</target>
       </trans-unit>
       <trans-unit id="contact.hero.title" datatype="html">
-        <source>Tell us about the project.</source>
-        <target>احكِ لنا عن مشروعك.</target>
+        <source>Let&apos;s build something worth shipping.</source>
+        <target>لنبنِ شيئاً يستحق الإطلاق.</target>
       </trans-unit>
       <trans-unit id="contact.hero.lede" datatype="html">
-        <source> Send an email or a WhatsApp message — whichever is easier. We reply within a day or two. </source>
-        <target> أرسل إيميل أو رسالة واتساب — أيّهما أسهل عليك. نرد خلال يوم أو يومين. </target>
+        <source> Send an email. We reply within a day or two. </source>
+        <target> أرسل إيميل. نرد خلال يوم أو يومين. </target>
       </trans-unit>
       <trans-unit id="contact.email.label" datatype="html">
         <source>Email</source>
@@ -122,37 +54,17 @@
         <source>For project briefs and anything detailed.</source>
         <target>لتفاصيل المشروع وأي شيء يحتاج شرحاً أطول.</target>
       </trans-unit>
-      <trans-unit id="contact.whatsapp.label" datatype="html">
-        <source>WhatsApp</source>
-        <target>واتساب</target>
-      </trans-unit>
-      <trans-unit id="contact.whatsapp.value" datatype="html">
-        <source>Message us directly</source>
-        <target>راسلنا مباشرة</target>
-      </trans-unit>
-      <trans-unit id="contact.whatsapp.hint" datatype="html">
-        <source>Fastest way to reach us.</source>
-        <target>أسرع طريقة للوصول إلينا.</target>
-      </trans-unit>
-      <trans-unit id="contact.location.label" datatype="html">
-        <source>Based in</source>
-        <target>مقرّنا في</target>
-      </trans-unit>
-      <trans-unit id="contact.location.value" datatype="html">
-        <source>Qara, Syria — working with clients everywhere</source>
-        <target>قارة، سوريا — ونعمل مع عملاء من كل مكان</target>
-      </trans-unit>
       <trans-unit id="home.hero.eyebrow" datatype="html">
         <source>Web &amp; mobile development</source>
         <target>تطوير مواقع وتطبيقات موبايل</target>
       </trans-unit>
       <trans-unit id="home.hero.title" datatype="html">
-        <source>We build software the way we learned to in Germany.</source>
-        <target>نبني البرمجيات بالطريقة التي تعلّمناها في ألمانيا.</target>
+        <source>You bring the idea. We build it.</source>
+        <target>أنت تحضر الفكرة. نحن نبنيها.</target>
       </trans-unit>
       <trans-unit id="home.hero.lede" datatype="html">
-        <source> A small studio in Qara, Syria, building web and mobile products with the discipline of Germany&apos;s tech industry. </source>
-        <target> استوديو صغير في قارة، سوريا، يبني منتجات ويب وموبايل بانضباط قطاع التقنية الألماني. </target>
+        <source> Karaz Dev designs and builds web and mobile products from start to finish — you focus on the idea, we handle everything it takes to ship it. </source>
+        <target> كرز ديف يصمم ويبني منتجات ويب وموبايل من الفكرة حتى الإطلاق — أنت تركّز على الفكرة، ونحن نتكفّل بكل ما يلزم لإطلاقها. </target>
       </trans-unit>
       <trans-unit id="home.hero.ctaWork" datatype="html">
         <source>See our work</source>
@@ -162,158 +74,6 @@
         <source>Start a project</source>
         <target>ابدأ مشروعك</target>
       </trans-unit>
-      <trans-unit id="home.services.eyebrow" datatype="html">
-        <source>What we do</source>
-        <target>ماذا نقدّم</target>
-      </trans-unit>
-      <trans-unit id="home.services.web.title" datatype="html">
-        <source>Web Development</source>
-        <target>تطوير المواقع</target>
-      </trans-unit>
-      <trans-unit id="home.services.web.body" datatype="html">
-        <source> Fast, accessible sites and apps — built to load quickly even on a weak connection. </source>
-        <target> مواقع وتطبيقات سريعة وسهلة الوصول — مبنية لتفتح بسرعة حتى على اتصال ضعيف. </target>
-      </trans-unit>
-      <trans-unit id="home.services.mobile.title" datatype="html">
-        <source>Mobile Development</source>
-        <target>تطوير تطبيقات الموبايل</target>
-      </trans-unit>
-      <trans-unit id="home.services.mobile.body" datatype="html">
-        <source> iOS and Android apps, from first screen to release — built to stay usable when the network isn&apos;t. </source>
-        <target> تطبيقات لنظامي iOS وAndroid، من أول شاشة حتى الإطلاق — مبنية لتبقى صالحة حتى عندما تنقطع الشبكة. </target>
-      </trans-unit>
-      <trans-unit id="home.services.more" datatype="html">
-        <source>More on how we work →</source>
-        <target>المزيد عن طريقة عملنا ←</target>
-      </trans-unit>
-      <trans-unit id="home.about.eyebrow" datatype="html">
-        <source>Why Karaz Dev</source>
-        <target>لماذا كرز ديف</target>
-      </trans-unit>
-      <trans-unit id="home.about.title" datatype="html">
-        <source>Trained on German engineering standards. Built for Syria&apos;s connections.</source>
-        <target>بمعايير هندسية ألمانية. مبني لاتصالات سوريا.</target>
-      </trans-unit>
-      <trans-unit id="home.about.body" datatype="html">
-        <source> Our habits come from Germany&apos;s tech industry — code review, testing, real performance budgets. Plus one focus that industry usually skips: staying fast on the connections our own city actually has. </source>
-        <target> عاداتنا جاءت من قطاع التقنية الألماني — مراجعة الكود، والاختبار، وحدود أداء حقيقية. مع تركيز إضافي يتجاهله القطاع عادة: البقاء سريعين على الاتصال الذي تملكه مدينتنا فعلاً. </target>
-      </trans-unit>
-      <trans-unit id="home.about.more" datatype="html">
-        <source>Read more about us →</source>
-        <target>اقرأ المزيد عنا ←</target>
-      </trans-unit>
-      <trans-unit id="home.work.eyebrow" datatype="html">
-        <source>Selected work</source>
-        <target>أعمال مختارة</target>
-      </trans-unit>
-      <trans-unit id="home.work.title" datatype="html">
-        <source>Mazboot — a marketplace for craftsmen</source>
-        <target>مظبوط — منصة للمهنيين</target>
-      </trans-unit>
-      <trans-unit id="home.work.body" datatype="html">
-        <source> A bilingual marketplace connecting customers with local craftsmen — built the same offline-friendly way as this site. </source>
-        <target> منصة ثنائية اللغة تربط الزبائن بالمهنيين المحليين — مبنية بنفس النهج الذي يعمل جيداً على اتصال ضعيف، مثل هذا الموقع. </target>
-      </trans-unit>
-      <trans-unit id="home.work.more" datatype="html">
-        <source>See the full case study →</source>
-        <target>اطّلع على القصة كاملة ←</target>
-      </trans-unit>
-      <trans-unit id="home.cta.title" datatype="html">
-        <source>Have a project in mind?</source>
-        <target>عندك مشروع في بالك؟</target>
-      </trans-unit>
-      <trans-unit id="home.cta.button" datatype="html">
-        <source>Get in touch</source>
-        <target>تواصل معنا</target>
-      </trans-unit>
-      <trans-unit id="services.hero.eyebrow" datatype="html">
-        <source>Services</source>
-        <target>خدماتنا</target>
-      </trans-unit>
-      <trans-unit id="services.hero.title" datatype="html">
-        <source>Web and mobile products, built to actually load.</source>
-        <target>منتجات ويب وموبايل، مبنية لتفتح فعلاً.</target>
-      </trans-unit>
-      <trans-unit id="services.hero.lede" datatype="html">
-        <source> Two things, done properly, rather than a long list done halfway. </source>
-        <target> شيئان، منفّذان بإتقان، بدل قائمة طويلة منفّذة بنص طريق. </target>
-      </trans-unit>
-      <trans-unit id="services.web.title" datatype="html">
-        <source>Web Development</source>
-        <target>تطوير المواقع</target>
-      </trans-unit>
-      <trans-unit id="services.web.body" datatype="html">
-        <source> Marketing sites, dashboards, and web apps — server-rendered where it matters, and measured against a slow connection, not a developer&apos;s fibre line. </source>
-        <target> مواقع تعريفية، ولوحات تحكم، وتطبيقات ويب — معروضة من جهة الخادم حيث يهم ذلك، ومقيّمة على اتصال بطيء، لا على خط إنترنت المطوّر. </target>
-      </trans-unit>
-      <trans-unit id="services.web.point1" datatype="html">
-        <source>Server-side rendering and static generation where it fits</source>
-        <target>عرض من جهة الخادم وتوليد صفحات ثابتة حيث يناسب ذلك</target>
-      </trans-unit>
-      <trans-unit id="services.web.point2" datatype="html">
-        <source>Multi-language and right-to-left support, done at the framework level</source>
-        <target>دعم تعدد اللغات والكتابة من اليمين لليسار، على مستوى البنية الأساسية</target>
-      </trans-unit>
-      <trans-unit id="services.web.point3" datatype="html">
-        <source>Accessibility and semantic markup, not an afterthought pass</source>
-        <target>سهولة الوصول وترميز دلالي صحيح، لا كمراجعة لاحقة</target>
-      </trans-unit>
-      <trans-unit id="services.mobile.title" datatype="html">
-        <source>Mobile Development</source>
-        <target>تطوير تطبيقات الموبايل</target>
-      </trans-unit>
-      <trans-unit id="services.mobile.body" datatype="html">
-        <source> iOS and Android apps, native or cross-platform depending on what the product needs. Built to handle a dropped connection gracefully. </source>
-        <target> تطبيقات لنظامي iOS وAndroid، أصلية أو متعددة المنصات حسب ما يحتاجه المنتج. مبنية للتعامل مع انقطاع الاتصال بسلاسة. </target>
-      </trans-unit>
-      <trans-unit id="services.mobile.point1" datatype="html">
-        <source>Offline-first data handling where the product calls for it</source>
-        <target>معالجة بيانات تعمل دون اتصال حيث يتطلب المنتج ذلك</target>
-      </trans-unit>
-      <trans-unit id="services.mobile.point2" datatype="html">
-        <source>App Store and Play Store release management</source>
-        <target>إدارة النشر على App Store وPlay Store</target>
-      </trans-unit>
-      <trans-unit id="services.mobile.point3" datatype="html">
-        <source>Push notifications, deep links, and native device features</source>
-        <target>إشعارات فورية، وروابط عميقة، وميزات الجهاز الأصلية</target>
-      </trans-unit>
-      <trans-unit id="services.process.eyebrow" datatype="html">
-        <source>How a project runs</source>
-        <target>كيف يسير المشروع</target>
-      </trans-unit>
-      <trans-unit id="services.process.step1.title" datatype="html">
-        <source>Discovery</source>
-        <target>الاستكشاف</target>
-      </trans-unit>
-      <trans-unit id="services.process.step1.body" datatype="html">
-        <source>We map out what the product actually needs to do, and who for.</source>
-        <target>نحدد ما يحتاج المنتج فعلاً أن يفعله، ولمن.</target>
-      </trans-unit>
-      <trans-unit id="services.process.step2.title" datatype="html">
-        <source>Build</source>
-        <target>البناء</target>
-      </trans-unit>
-      <trans-unit id="services.process.step2.body" datatype="html">
-        <source>Short iterations, real code reviews, and a working preview at every stage.</source>
-        <target>دورات عمل قصيرة، ومراجعة كود حقيقية، ونسخة تجريبية تعمل في كل مرحلة.</target>
-      </trans-unit>
-      <trans-unit id="services.process.step3.title" datatype="html">
-        <source>Launch &amp; support</source>
-        <target>الإطلاق والدعم</target>
-      </trans-unit>
-      <trans-unit id="services.process.step3.body" datatype="html">
-        <source>We stay on after launch — fixes, monitoring, and the next iteration.</source>
-        <target>نبقى معك بعد الإطلاق — إصلاحات، ومتابعة، والمرحلة التالية.</target>
-      </trans-unit>
-      <trans-unit id="services.cta.title" datatype="html">
-        <source>Tell us what you&apos;re building.</source>
-        <target>احكِ لنا عن الشيء الذي تبنيه.</target>
-      </trans-unit>
-      <trans-unit id="services.cta.button" datatype="html">
-        <source>Get in touch</source>
-        <target>تواصل معنا</target>
-      </trans-unit>
       <trans-unit id="work.hero.eyebrow" datatype="html">
         <source>Work</source>
         <target>أعمالنا</target>
@@ -321,10 +81,6 @@
       <trans-unit id="work.hero.title" datatype="html">
         <source>Selected work</source>
         <target>أعمال مختارة</target>
-      </trans-unit>
-      <trans-unit id="work.hero.lede" datatype="html">
-        <source>One project so far, built the way every future one will be.</source>
-        <target>مشروع واحد حتى الآن، مبني بالطريقة التي سيُبنى بها كل مشروع قادم.</target>
       </trans-unit>
       <trans-unit id="work.mazboot.status" datatype="html">
         <source>In development</source>
@@ -338,33 +94,45 @@
         <source>A bilingual marketplace connecting customers with local craftsmen.</source>
         <target>منصة ثنائية اللغة تربط الزبائن بالمهنيين المحليين.</target>
       </trans-unit>
-      <trans-unit id="work.mazboot.body1" datatype="html">
-        <source> Customers post what they need done — a leaking tap, a wiring job — and nearby craftsmen send offers directly. Arabic-first, built for an audience where a phone number matters more than an email. </source>
-        <target> ينشر الزبائن ما يحتاجون إنجازه — صنبور يسرّب، أعمال كهرباء — ويرسل المهنيون القريبون عروضهم مباشرة. بالعربية أولاً، ومبني لجمهور يهمه رقم الهاتف أكثر من البريد الإلكتروني. </target>
+      <trans-unit id="work.mazboot.body" datatype="html">
+        <source> Customers post what they need done — a leaking tap, a wiring job — and nearby craftsmen send offers directly. Built for a slow connection and a cash economy: phone-number sign-in instead of email, and no online payment — money changes hands in person. </source>
+        <target> ينشر الزبائن ما يحتاجون إنجازه — صنبور يسرّب، أعمال كهرباء — ويرسل المهنيون القريبون عروضهم مباشرة. مبني لاتصال بطيء واقتصاد نقدي: تسجيل دخول برقم الهاتف بدل البريد الإلكتروني، ولا يوجد دفع إلكتروني — التبادل المالي يتم شخصياً. </target>
       </trans-unit>
-      <trans-unit id="work.mazboot.body2" datatype="html">
-        <source> Server-rendered, with row-level security on every query, and phone-number sign-in alongside the standard one. </source>
-        <target> معروض من جهة الخادم، مع أمان على مستوى الصف في كل استعلام، وتسجيل دخول برقم الهاتف إلى جانب الطريقة المعتادة. </target>
+      <trans-unit id="work.lunara.status" datatype="html">
+        <source>Live</source>
+        <target>متاح الآن</target>
       </trans-unit>
-      <trans-unit id="work.mazboot.roleLabel" datatype="html">
-        <source>Role</source>
-        <target>دورنا</target>
+      <trans-unit id="work.lunara.title" datatype="html">
+        <source>Lunara Events</source>
+        <target>لونارا إيفنتس</target>
       </trans-unit>
-      <trans-unit id="work.mazboot.role" datatype="html">
-        <source>Full product build — design, engineering, deployment</source>
-        <target>بناء المنتج بالكامل — تصميم، وبرمجة، ونشر</target>
+      <trans-unit id="work.lunara.subtitle" datatype="html">
+        <source>A decoration and design studio for life&apos;s occasions.</source>
+        <target>استوديو تزيين وتصميم لمناسبات الحياة.</target>
       </trans-unit>
-      <trans-unit id="work.mazboot.stackLabel" datatype="html">
-        <source>Stack</source>
-        <target>التقنيات</target>
+      <trans-unit id="work.lunara.body" datatype="html">
+        <source> Custom invitations, cards, and party favors — browsed on a slow connection and ordered directly through WhatsApp, with no email sign-up and no online payment. </source>
+        <target> دعوات وبطاقات وهدايا مناسبات مصممة حسب الطلب — تُستعرض على اتصال بطيء وتُطلب مباشرة عبر واتساب، دون تسجيل بريد إلكتروني ودون دفع إلكتروني. </target>
       </trans-unit>
-      <trans-unit id="work.cta.title" datatype="html">
-        <source>Want to be the next one on this page?</source>
-        <target>تريد أن تكون التالي على هذه الصفحة؟</target>
+      <trans-unit id="work.sovereign.status" datatype="html">
+        <source>Live</source>
+        <target>متاح الآن</target>
       </trans-unit>
-      <trans-unit id="work.cta.button" datatype="html">
-        <source>Start a project</source>
-        <target>ابدأ مشروعك</target>
+      <trans-unit id="work.sovereign.title" datatype="html">
+        <source>Sovereign Cyber</source>
+        <target>سوفرين سايبر</target>
+      </trans-unit>
+      <trans-unit id="work.sovereign.subtitle" datatype="html">
+        <source>Independent IT strategy for organizations that want to own their technology choices.</source>
+        <target>استراتيجية تقنية معلومات مستقلة للمؤسسات التي تريد أن تملك قراراتها التقنية.</target>
+      </trans-unit>
+      <trans-unit id="work.sovereign.body" datatype="html">
+        <source> A consulting site built to make the case for technology independence clearly, in a market that mostly defaults to whichever vendor is easiest. </source>
+        <target> موقع استشاري مبني ليشرح بوضوح أهمية الاستقلالية التقنية، في سوق يميل غالباً لأسهل مزوّد متاح. </target>
+      </trans-unit>
+      <trans-unit id="work.visitSite" datatype="html">
+        <source>Visit site ↗</source>
+        <target>زيارة الموقع ↗</target>
       </trans-unit>
     </body>
   </file>
